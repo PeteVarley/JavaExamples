@@ -1,12 +1,12 @@
 // Immutable object in Java:
 
-final public class MediumPostalShippingBox{
+final public class PostalShippingBox{
 
 	final private int length;
-	final private int width;
+	final private int width; 
 	final private int height;
 	
-	public MediumPostalShippingBox(int length, int width, int height){
+	public PostalShippingBox(int length, int width, int height){
 
 		this.length = length;
 		this.width = width;
@@ -35,7 +35,7 @@ final public class MediumPostalShippingBox{
 
 	public static void main(String[] args) {
 
-		MediumPostalShippingBox mediumBox = new MediumPostalShippingBox(11,8,6);
+		PostalShippingBox mediumBox = new PostalShippingBox(11,8,6);
 		mediumBox.boxSize();
 		mediumBox.ship();
 
